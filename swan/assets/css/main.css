@@ -1,0 +1,701 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basketdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+  margin-top: 30px;
+}
+#basketdiv .basketproducts {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#basketdiv .basketproducts p {
+  color: gray;
+}
+#basketdiv .basketproducts img {
+  width: 100%;
+}
+#basketdiv .basketproducts .addtowishlistbtn {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 20px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+#basketdiv .basketproducts .addtowishlistbtn:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+#basketdiv .basketproducts .removebtn {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 8px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+#basketdiv .basketproducts .removebtn:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wishlistdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+  margin-top: 30px;
+}
+#wishlistdiv .wishlistproducts {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#wishlistdiv .wishlistproducts p {
+  color: gray;
+}
+#wishlistdiv .wishlistproducts img {
+  width: 100%;
+}
+#wishlistdiv .wishlistproducts .addtobasketbtn {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 8px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+#wishlistdiv .wishlistproducts .addtobasketbtn:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+#wishlistdiv .wishlistproducts .removefromwishlist {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 8px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+#wishlistdiv .wishlistproducts .removefromwishlist:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+}
+header .container {
+  background-color: black;
+  width: 95%;
+}
+header .container .nav {
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+header .container .nav .collapseDiv {
+  position: absolute;
+  top: 80%;
+  width: 96%;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+}
+header .container .nav .collapseDiv ul {
+  display: flex;
+  gap: 30px;
+}
+header .container .nav .collapseDiv ul li a {
+  color: black;
+  font-weight: bolder;
+}
+header .container .nav .collapseDiv ul li a:hover {
+  color: #688FF3;
+  transition: 0.3s;
+}
+header .container .nav .collapseDiv form {
+  display: flex;
+}
+header .container .nav .collapseDiv form button {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 0px;
+}
+header .container .nav .collapseDiv form button:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+header .container .nav .connectdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header .container .nav .connectdiv p {
+  color: rgb(158, 154, 154);
+}
+header .container .nav .connectdiv i {
+  color: #688FF3;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  header .container .nav .connectdiv {
+    display: none;
+  }
+}
+main #registersection {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/img05.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+main #registersection .container {
+  width: 95%;
+}
+main #registersection .container .row {
+  padding: 30px;
+}
+main #registersection .container .row .registertext {
+  margin-top: 30px;
+  padding: 30px;
+}
+main #registersection .container .row .registertext p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+main #registersection .container .row .registertext h1 {
+  font-weight: bolder;
+  color: white;
+  font-size: 45px;
+}
+main #registersection .container .row .registertext h1 span {
+  color: #688FF3;
+}
+main #registersection .container .row .registertext button {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+}
+main #registersection .container .row .registertext button:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+main #registersection .container .row .formdiv {
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+main #registersection .container .row .formdiv .titleform {
+  text-align: center;
+}
+main #registersection .container .row .formdiv .titleform p {
+  color: gray;
+}
+main #registersection .container .row .formdiv .titleform h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+main #registersection .container .row .formdiv #myform {
+  width: 100%;
+}
+main #registersection .container .row .formdiv #myform .inputdiv {
+  width: 100%;
+}
+main #registersection .container .row .formdiv #myform .inputdiv input {
+  margin-top: 30px;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+main #registersection .container .row .formdiv .btndiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #registersection .container .row .formdiv .btndiv p {
+  margin-top: 10px;
+}
+main #registersection .container .row .formdiv .btndiv button {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+main #registersection .container .row .formdiv .btndiv button:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+main #about {
+  width: 100%;
+}
+main #about .container {
+  width: 95%;
+}
+main #about .container .titlediv {
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #about .container .titlediv h1 {
+  font-weight: bolder;
+  color: #688FF3;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+main #about .container .titlediv h1 span {
+  color: black;
+}
+main #about .container .titlediv p {
+  width: 50%;
+  color: gray;
+}
+main #about .container .aboutdiv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #about .container .aboutdiv h2 {
+  color: #688FF3;
+  font-weight: bolder;
+}
+main #about .container .aboutdiv h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+main #about .container .aboutdiv p {
+  color: gray;
+  margin-bottom: 30px;
+}
+main #about .container .aboutdiv button {
+  border: none;
+  color: #688FF3;
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: 15px;
+}
+main #demonstration {
+  background-image: url(/assets/img/img04.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+main #demonstration .container {
+  width: 95%;
+  padding: 30px;
+}
+main #demonstration .container .row {
+  padding: 30px;
+}
+main #demonstration .container .row .demonstrationdiv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+main #demonstration .container .row .demonstrationdiv h1 {
+  color: #688FF3;
+  font-size: 80px;
+}
+main #demonstration .container .row .demonstrationdiv p {
+  color: gray;
+}
+main #services {
+  width: 100%;
+}
+main #services .container {
+  width: 95%;
+}
+main #services .container .row .servicesimg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #services .container .row .servicesimg .row {
+  padding: 20px;
+}
+main #services .container .row .servicesimg .row .servicesitem {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: -25px;
+  margin-right: -25px;
+  padding: 30px;
+}
+main #services .container .row .servicesimg .row .servicesitem h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 10px;
+  color: #688FF3;
+}
+main #services .container .row .servicesimg .row .servicesitem img {
+  margin-top: 30px;
+}
+main #services .container .row .servicesimg .row .servicesitem i {
+  color: #688FF3;
+  font-size: 50px;
+}
+main #services .container .row .servicesimg .row .servicesitem p {
+  color: transparent;
+}
+main #services .container .row .servicesimg .row .servicesitem:hover i {
+  color: transparent;
+  transition: 0.3s;
+}
+main #services .container .row .servicesimg .row .servicesitem:hover p {
+  color: gray;
+  transition: 0.3s;
+}
+main #services .container .row .servicestext {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+main #services .container .row .servicestext h1 {
+  font-weight: bolder;
+  color: #688FF3;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+main #services .container .row .servicestext h1 span {
+  color: black;
+}
+main #services .container .row .servicestext p {
+  width: 100%;
+  color: gray;
+  margin-bottom: 30px;
+}
+main #services .container .row .servicestext ul {
+  text-decoration: #688FF3;
+}
+main #services .container .row .servicestext ul li {
+  margin-top: 10px;
+  font-weight: bolder;
+}
+main #apisection {
+  width: 100%;
+}
+main #apisection .container {
+  width: 95%;
+}
+main #apisection .container .titlediv {
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #apisection .container .titlediv h1 {
+  font-weight: bolder;
+  color: #688FF3;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+main #apisection .container .titlediv h1 span {
+  color: black;
+}
+main #apisection .container .titlediv p {
+  width: 50%;
+  color: gray;
+}
+main #apisection .container .filterandsearchdiv {
+  padding: 20px;
+}
+main #apisection .container .filterandsearchdiv select {
+  background-color: #688FF3;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+main #apisection .container .filterandsearchdiv select:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.5s;
+}
+main #apisection .container .filterandsearchdiv #form input {
+  padding: 10px;
+}
+main #apisection .container .filterandsearchdiv #form button {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+main #apisection .container .filterandsearchdiv #form button:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main #apisection .container #apidiv .proBox {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+main #apisection .container #apidiv .proBox button {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+main #apisection .container #apidiv .proBox button:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv .proBox p {
+  color: gray;
+}
+main #apisection .container #apidiv .proBox img {
+  width: 100%;
+}
+main #apisection .container #apidiv .proBox .addtowishlistbtn {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 20px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+main #apisection .container #apidiv .proBox .addtowishlistbtn:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv .proBox .addtobasketbtn {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 8px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+main #apisection .container #apidiv .proBox .addtobasketbtn:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv .myDiv {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+main #apisection .container #apidiv .myDiv button {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+main #apisection .container #apidiv .myDiv button:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv .myDiv p {
+  color: gray;
+}
+main #apisection .container #apidiv .myDiv img {
+  width: 100%;
+}
+main #apisection .container #apidiv .myDiv .addtowishlistbtn {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 20px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+main #apisection .container #apidiv .myDiv .addtowishlistbtn:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+main #apisection .container #apidiv .myDiv .addtobasketbtn {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 8px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+main #apisection .container #apidiv .myDiv .addtobasketbtn:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+main #quote {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/img01.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+main #quote .container {
+  width: 95%;
+}
+main #quote .container .quotediv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+main #quote .container .quotediv p {
+  color: white;
+}
+main #quote .container .quotediv h1 {
+  color: #688FF3;
+  font-weight: bolder;
+}
+main #quote .container .quotediv button {
+  background-color: #688FF3;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+main #quote .container .quotediv button:hover {
+  background-color: black;
+  color: #688FF3;
+  transition: 0.3s;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+}
+footer .container {
+  width: 95%;
+}
+footer .container .footercontact {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+footer .container .footercontact .connectdiv {
+  display: flex;
+}
+footer .container .footercontact .connectdiv i {
+  color: #688FF3;
+  margin-left: 10px;
+}
+footer .container .footercontact .connectdiv p {
+  color: rgb(171, 165, 165);
+}
+footer .container .footerdiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-top: 1px solid gray;
+}
+footer .container .footerdiv .linkdiv {
+  display: flex;
+  gap: 20px;
+}
+footer .container .footerdiv .linkdiv p {
+  color: rgb(193, 193, 193);
+}
+footer .container .footerdiv .linkdiv a i {
+  color: #688FF3;
+}
+
+@media screen and (max-width: 484px) {
+  footer .container .footercontact {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container .footercontact img {
+    margin-bottom: 10px;
+  }
+  footer .container .footercontact .connectdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container .footerdiv {
+    display: flex;
+    flex-direction: column;
+  }
+}

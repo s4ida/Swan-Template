@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wishlistdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 30px;
+    .wishlistproducts{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            color: gray;
+        }
+        img{
+            width: 100%;
+        }
+        .addtobasketbtn{
+            background-color: $main-color;
+            color: white;
+            font-weight: bolder;
+            padding: 8px;
+            border: none;
+          border-radius: 0px;
+          margin-left: 20px;
+          margin-bottom: 10px;
+        }
+        .addtobasketbtn:hover{
+            background-color: black;
+            color: $main-color;
+            transition: 0.3s; 
+        }
+    .removefromwishlist{
+        background-color: $main-color;
+        color: white;
+        font-weight: bolder;
+        padding: 8px;
+        border: none;
+      border-radius: 0px;
+      margin-left: 20px;
+    }
+    .removefromwishlist:hover{
+        background-color: black;
+        color: $main-color;
+        transition: 0.3s; 
+    }
+    }
+}
